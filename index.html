@@ -101,23 +101,15 @@
             right.style.display = "none";
         };
     </script>
-<audio id="music" loop>
+<audio controls>
   <source src="music.mp3" type="audio/mpeg">
 </audio>
-
-<script>
-window.addEventListener("load", function() {
-  document.body.addEventListener("click", function() {
-    const audio = document.getElementById("music");
-    audio.play().catch(() => {});
-  }, { once: true });
-});
-</script>
 
 </body>
 
 
 </html> 
+
 
 
 
